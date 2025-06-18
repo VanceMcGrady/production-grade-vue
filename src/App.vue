@@ -1,20 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <DynamicHeading :level="1" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
 </template>
 
 <script>
-import DynamicHeading from './components/DynamicHeading.vue'
-import HelloWorld from './components/HelloWorld.vue'
+import DynamicHeading from "./components/DynamicHeading.vue";
+//import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     DynamicHeading,
-    HelloWorld
-  }
-}
+  },
+};
 </script>
 
 <style>
